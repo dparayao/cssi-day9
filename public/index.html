@@ -31,6 +31,9 @@
         <div class="login">
           <img src="https://image.freepik.com/free-vector/colorful-speech-bubbles-set_74855-6314.jpg" width="325px" />
           <form action="javascript:void(0);">
+<div>  
+    <h4 id = "passDirections">Passwords must be between 5-10 characters and have at least one capital letter.</h4>
+</div>
             <div class="field">
               <div class="control">
                 <input class="input is-medium is-rounded" type="text" id="passcode" placeholder="Enter a passcode" required />
@@ -42,7 +45,7 @@
               </div>
             </div>
             <br />
-            <button class="button is-block is-fullwidth is-primary is-medium is-rounded">
+            <button onclick="submitMessage()" class="button is-block is-fullwidth is-primary is-medium is-rounded">
               Send Message
             </button>
           </form>
